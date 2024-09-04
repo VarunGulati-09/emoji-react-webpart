@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-to-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactToNews/ReactToNewsWebPart.js",
+          "manifest": "./src/webparts/reactToNews/ReactToNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactToNewsWebPartStrings": "lib/webparts/reactToNews/loc/{locale}.js"
+  }
+}
